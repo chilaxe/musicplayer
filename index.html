@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #111;
+            font-family: 'Roboto', sans-serif;
+        }
+        audio {
+            background-color: #181818;
+            margin: 5px;
+            border: 2px solid #69b45f;
+            border-radius: 8px; 
+            outline: none;
+        }
+        
+        audio::-webkit-media-controls {
+            background-color: #282828; 
+        }
+        
+        audio::-webkit-media-controls-enclosure {
+            background-color: #181818;
+            border-radius: 8px; 
+        }
+        .audi
+        {
+            padding: 10px;
+            border-radius: 30px;
+            scale: 0.8;
+            display: flex;
+            align-items: center;
+            background-color: #181818;
+            width: 700px;
+        }
+        .imagea
+        {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        }
+        .ti
+        {
+            color: #696969;
+            font-size: 14px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="audi">
+        <img src="/fe!n.png" class="imagea">
+        <p class="ti">Travis Scott - FE!N (Official Audio) ft. Playboi Carti</p>
+        <audio controls>
+            <source src="/noname.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="audi">
+        <img src="/artworks-8omozfIZDjYsUnQh-R2GClA-t500x500.jpg" class="imagea">
+        <p class="ti">Ogryzek - GLORY (Official Visualiser)</p>
+        <audio controls>
+            <source src="/Ogryzek - GLORY (Official Visualiser).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="audi">
+        <img src="/ab67616d0000b273bb7e0eb64fae8dbd5b9d2a12.jpeg" class="imagea">
+        <p class="ti">Ogryzek - AURA (Official Visualiser)</p>
+        <audio controls>
+            <source src="/noname (1).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="audi">
+        <img src="/ab67616d0000b273bb7e0eb64fae8dbd5b9d2a12.jpeg" class="imagea">
+        <p class="ti">Ogryzek - AURA (Official Visualiser)</p>
+        <audio controls>
+            <source src="/noname (1).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
